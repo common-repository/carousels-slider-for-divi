@@ -1,0 +1,20 @@
+.img_caro {
+    position: relative;
+    text-align: center;
+  }
+.img_caro_top{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.img_caro_bottom{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.img_caro_middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

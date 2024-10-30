@@ -1,0 +1,672 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .csfd-admin,
+.csfd-admin * {
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+.csfd-admin {
+    padding-top: 10px;
+}
+
+#csfd-header-upgrade-message {
+    text-align: center;
+    background-color: #f5f0c0;
+    color: #222;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+    box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+}
+
+#csfd-header-upgrade-message p {
+    margin: 0;
+}
+
+#csfd-header-upgrade-message p .dashicons {
+    color: #f2a64c;
+    margin-right: 5px;
+}
+
+.csfd-admin p {
+    margin-bottom: 25px;
+}
+
+.csfd-gmb-text {
+    margin-bottom: 8px !important;
+}
+
+.csfd-admin .csfd-align-center {
+    text-align: center;
+}
+
+.csfd-text.f11 {
+    font-size: 11px;
+}
+
+.csfd-text.f12 {
+    font-size: 12px;
+}
+
+.csfd-text.f13 {
+    font-size: 13px;
+}
+
+.csfd-text.f14 {
+    font-size: 14px;
+}
+
+.csfd-text.f15 {
+    font-size: 15px;
+}
+
+.csfd-text.f16 {
+    font-size: 16px;
+}
+
+.csfd-text.f17 {
+    font-size: 17px;
+}
+
+.csfd-text.f18 {
+    font-size: 18px;
+}
+
+.csfd-text.f20 {
+    font-size: 20px;
+}
+
+.csfd-admin a,
+.csfd-admin a:hover {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.csfd-btn {
+    display: inline-block !important;
+    padding: 15px 25px !important;
+    border: 0 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.csfd-btn-primary {
+    background: #F7747A !important;
+    color: #fff !important;
+}
+
+.csfd-btn-highlight {
+    background: #d6226e !important;
+}
+
+.csfd-btn:focus,
+.csfd-btn:hover {
+    outline: none;
+    box-shadow: none;
+}
+
+.csfd-button-wrap {
+    padding-right: 40px;
+}
+
+.csfd-btn.pro {
+    margin-right: 0px;
+}
+
+.csfd-btn-primary:focus,
+.csfd-btn-primary:hover {
+    background: #3c8ce7;
+    color: #fff;
+}
+
+.csfd-btn-lg {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.csfd-btn-save.disabled,
+.csfd-btn-save:disabled {
+    background-color: #b3b3b3;
+    box-shadow: none;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.csfd-btn-save {
+    width: 13em;
+    background-color: #4b2f9d;
+    color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+a:active,
+a:hover {
+    color: #00a0d2;
+}
+
+.csfd-admin-header {
+    height: auto;
+    padding: 0px;
+    position: relative;
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #3C8CE7 0%, #00FFC2 100%);;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 2px 2px 0 0;
+    box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08);
+    padding: 20px 0;
+}
+
+.csfd-admin-logo-inline {
+    width: 140px;
+    padding-left: 40px;
+}
+
+.csfd-nav {
+    text-align: center;
+    padding-right: 28px;
+}
+
+.csfd-tabs-nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.csfd-nav span {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.csfd-nav h2 {
+    color: #ffffff;
+    margin: 3px 0;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.csfd-admin-tabs-content {
+    padding: 40px;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08);
+}
+
+.csfd-row-fixed-width {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+.csfd-min-height-450 {
+    min-height: 450px;
+}
+
+.csfd-border-box {
+    padding: 3rem;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 1100px) {
+    .csfd-row-fixed-width {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .csfd-row-fixed-width {
+        max-width: 1000px;
+    }
+}
+
+.csfd-tabs-nav:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.csfd-admin-nav-item-link {
+    outline: none !important;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 0.6;
+    font-weight: 700;
+    margin-left: 15px;
+    padding: 8px 12px 8px 40px;
+    display: inline-block;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    box-shadow: none;
+}
+
+.csfd-admin-nav-item-link.active-tab,
+.csfd-admin-nav-item-link:active,
+.csfd-admin-nav-item-link:focus,
+.csfd-admin-nav-item-link:hover {
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.csfd-admin-tabs-content-item.active-tab {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.csfd-admin-tabs-content-item {
+    display: none;
+}
+
+.csfd-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.csfd-admin-modules-row {
+    padding-top: 0px;
+}
+
+.csfd-section-title-badge {
+    font-size: 18px;
+    background-color: #e2498a;
+    background-image: linear-gradient(135deg, #3C8CE7 0%, #00FFC2 100%);;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.csfd-section-title {
+    margin: 20px 0 0;
+    font-size: 48px;
+    line-height: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #3C8CE7 0%, #00FFC2 100%);
+}
+
+.btn-more:hover,
+.csfd-text-primary {
+    color: #5e3bc4;
+}
+
+@media (min-width: 768px) {
+    .csfd-col {
+        position: relative;
+        width: 100%;
+    }
+    .csfd-col-3 {
+        position: relative;
+        width: 100%;
+    }
+}
+
+.csfd-col {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .csfd-col-left,
+    .csfd-col-right {
+        position: relative;
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 100%;
+    }
+
+    .csfd-col-3 {
+        position: relative;
+        flex: 0 0 33.33%;
+        max-width: 33.33;
+        width: 100%;
+    }
+}
+
+.csfd-admin-modules {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.csfd-admin-modules-item {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 30px 20px;
+    width: calc(100% - 20px);
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .csfd-admin-modules-item {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (min-width: 1000px) {
+    .csfd-admin-modules-item {
+        width: calc(25% - 20px);
+    }
+}
+
+.csfd-admin-modules-item-badge-free,
+.csfd-admin-modules-item-badge-pro {
+    position: absolute;
+    top: -7px;
+    left: -26px;
+    padding: 18px 10px 7px;
+    width: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 1;
+    color: #fff;
+}
+
+.csfd-admin-modules-item-badge-free {
+    background: #e2498a;
+}
+
+.csfd-admin-modules-item-badge-pro {
+    background: #3c8ce7;
+}
+
+.csfd-admin .csfd-img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.csfd-admin .csfd-logo-icon-size {
+    width: 140px;
+    height: auto;
+}
+
+.csfd-admin .csfd-title-icon-size {
+    width: 48px;
+    height: auto;
+}
+
+.csfd-admin .csfd-item-icon-size {
+    width: 10px;
+    height: auto;
+}
+
+.csfd-admin .csfd-feature-title {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.csfd-admin .csfd-col-title {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.csfd-admin-modules-item-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.csfd-admin-modules-item-title {
+    display: inline-block;
+    margin: 0;
+    color: #444;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.csfd-admin-modules-item-title > label {
+    font-weight: 700;
+}
+
+.csfd-admin-modules-item-preview {
+    display: inline-block;
+    margin-left: 5px;
+    color: #c2cbd2;
+    font-size: 10px;
+    transition: all 0.2s;
+}
+
+.csfd-admin .csfd-toggle-check.disabled,
+.csfd-admin .csfd-toggle-check:disabled {
+    z-index: 0;
+    opacity: 0;
+}
+
+.csfd-box-content {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.csfd-admin-button-panel {
+    border-top: 1px dotted #e8e8e8;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+    padding: 5px;
+    width: 140px;
+    border-radius: 3px;
+    background-color: #000;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+    position: absolute;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid rgba(51, 51, 51, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.csfd-footer {
+    text-align: center;
+    font-size: 24px;
+    padding: 40px 0;
+}
+
+.csfd-footer h4 {
+    margin: 3px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.csfd-footer h4 a {
+    font-weight: 900;
+    margin: 20px 0 0;
+    font-size: 24px;
+    line-height: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #3C8CE7 0%, #00FFC2 100%);
+}
+
+.et-db #et-boc .et-l .et-fb-modules-list li[class^="csfd"]:hover,
+.et-db #et-boc .et-l .et-fb-modules-list li[class^="csfd"]:focus,
+.et-db #et-boc .et-l .et-fb-modules-list li[class^="csfd"]:active {
+    background: rgba(226, 73, 138, 0.9) !important;
+    color: #fff;
+}
+
+.et-db #et-boc .et-l .et-fb-modules-list li[class^="csfd"] {
+    font-size: 11px;
+    color: #fff;
+    background: #562cd4 !important;
+}
+
+.et-db #et-boc .et-l .et-fb-modules-list li[class^="csfd"]:before {
+    color: #fff;
+}
+
+.et-db
+    #et-boc
+    .et-l
+    .et-fb-modules-list
+    li[class^="csfd"]
+    .et-fb-icon.et-fb-icon--svg {
+    fill: #fff !important;
+    width: 22px !important;
+    min-width: 22px !important;
+    height: 22px !important;
+    margin: 2px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.csfd-instruction-box .csfd-feature-title {
+    font-size: 22px !important;
+}
+
+ul.csfd-list {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+.csfd-list .csfd-instruction-list {
+    font-size: 16px;
+}
+
+.csfd-list li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.csfd-list span {
+    font-weight: 700;
+}
+
+.csfd-google-body .csfd-feature-title {
+    display: flex;
+    align-items: center;
+}
+
+.csfd-note {
+    background: #fff999;
+    padding: 5px 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+/**
+* Admin notice
+*/
+.csfd-review-notice-container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.csfd-review-notice-container .dashicons {
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+
+.csfd-review-notice-container a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.csfd-review-notice-container .dashicons:first-child {
+    padding-left: 0;
+}
+
+.csfd-notice-image {
+    max-width: 100px;
+    width: 80px;
+}
+
+.csfd-notice-image img {
+    width: 70px;
+}
+
+.csfd-notice-content .csfd-notice-heading {
+    padding-bottom: 5px;
+}
+
+.csfd-notice-content {
+    margin-left: 15px;
+}
+
+.csfd-notice-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

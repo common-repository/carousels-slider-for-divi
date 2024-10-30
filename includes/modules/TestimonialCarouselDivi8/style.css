@@ -1,0 +1,30 @@
+
+.divi8-star_alt:before {
+    font-family: ETmodules!important;
+	content: "\e031";
+}
+.divi8-star-half_alt:before {
+    font-family: ETmodules!important;
+	content: "\e032";
+}
+.divi8-star-fill:before {
+    font-family: ETmodules!important;
+	content: "\e033";
+}
+.divi8-star-half:before {
+    font-family: ETmodules!important;
+	content: "\e034";
+}
+ul.divi8-rating{
+    list-style: none;
+}
+ul.divi8-rating li{
+    display: inline-block;
+}
+.divi8-icon-left,  .divi8-icon-right{
+	font-family: ETmodules;
+	content: attr(data-icon);
+	border-style: solid;
+	font-size: 44px !important;
+	text-align: center !important;
+}

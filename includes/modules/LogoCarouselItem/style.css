@@ -1,0 +1,16 @@
+.divi8-icon{
+  font-family: ETmodules;
+  content: attr(data-icon);
+  border-style: solid;
+  font-size: 105px !important;
+  text-align: center !important;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.divi8_content_carousel_item{
+  margin-bottom: 2.75% !important;
+}
+
